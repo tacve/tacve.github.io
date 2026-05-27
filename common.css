@@ -1,0 +1,95 @@
+        *{
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        ul{
+            list-style-type: none;
+        }
+        body{
+            font-family: "맑은 고딕","돋움";
+            font-size: 100%;
+        }
+        a{
+            text-decoration: none;
+            color: whitesmoke;
+        }    
+        [class*="c_"]{
+            float: left;
+            padding: 10px;
+            width: 100%;
+        }
+        @media  only screen and (min-width: 600px) {
+            .c_m_1{width: 8.33%;}
+            .c_m_2{width: 16.66%;}
+            .c_m_3{width: 25%;}
+            .c_m_4{width: 33.33%;}
+            .c_m_5{width:41.66%;}
+            .c_m_6{width: 50%;}
+            .c_m_7{width: 58.33%;}
+            .c_m_8{width: 66.66%;}
+            .c_m_9{width: 75%;}
+            .c_m_10{width: 83.33%;}
+            .c_m_11{width: 91.66%;}
+            .c_m_12{width: 100%;}
+        }
+        @media  only screen and (min-width: 768px) {
+            .c_1{width: 8.33%;}
+            .c_2{width: 16.66%;}
+            .c_3{width: 25%;}
+            .c_4{width: 33.33%;}
+            .c_5{width:41.66%;}
+            .c_6{width: 50%;}
+            .c_7{width: 58.33%;}
+            .c_8{width: 66.66%;}
+            .c_9{width: 75%;}
+            .c_10{width: 83.33%;}
+            .c_11{width: 91.66%;}
+            .c_12{width: 100%;}
+        }
+        header{
+            height: 80px;
+            padding: 20px;
+            background-color: #66c0e7;
+        }
+        aside{
+            color: #ffffff;
+        }
+        aside li{
+            padding: 10px;
+            margin: 5px;
+            background-color: #369222;
+        }
+        aside#menu{
+            color:#ffffff;
+        }
+        aside#menu li{
+            padding: 10px;
+            margin: 5px 0 0 0;
+            background-color: #369222;
+        }
+        section#main{
+            padding: 15px;
+        }
+        section#main p{
+            padding: 10px;
+            font-size: 0.95em;
+            line-height: 130%;
+        }
+        aside#photos img{
+            max-width: 100%;
+            height: auto;
+        }
+        aside#photos li{
+            margin: 5px 0 0 0;
+            float: left;
+            width: 50%;
+
+        }
+        footer{
+            height: 60px;
+            padding: 10px;
+            clear: both;
+            text-align: center;
+            background-color: #eeeeee;
+        }
